@@ -8,13 +8,13 @@ permalink: /:title/
 category: Boot2Root
 ---
 
-![](/img/redteam/redteamlogo.png)
+<center>![](/img/redteam/redteamlogo.png) </center>
 
 
 This is a write-up for the WEB-APP Challenge [Capture South Africa] in Redteamvillage’s CTF event at Defcon TVM 0x02.
 
 
-![](/img/redteam/redteambanner.jpg)
+<center>![](/img/redteam/redteambanner.jpg)</center>
 
 
 Special thanks to my awesome team members of defcon_speakers_0x02 (Sreeram KL & Vishnuprasad PG)
