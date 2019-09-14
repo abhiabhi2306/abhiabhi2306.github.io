@@ -6,7 +6,7 @@ permalink: /projects/
 
 {% assign num_of_projects = 0 %}
 {% for section in site.data.projects %}
-    {% assign num_of_projects = num_of_projects | plus: section.projects.size %}
+    {% assign num_of_projects = num_of_projects | "-" | plus: section.projects.size %}
 {% endfor %}
 
 <h2>{{ num_of_projects }} <small> - Total number of projects</small></h2>
