@@ -8,9 +8,6 @@ permalink: /:title/
 category: Boot2Root
 ---
 
-![](/img/redteam/redteamlogo.png) 
-
-
 This is a write-up for the WEB-APP Challenge [Capture South Africa] in Redteamvillage’s CTF event at Defcon TVM 0x02.
 
 
