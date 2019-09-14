@@ -3,10 +3,10 @@
 # Site wide configuration
 ####################################
 #
-title: Batcave - Infosec Blog
-email: dubeyayushmanrobin@protonmail.com
-description: Student with pure dedication to security.
-#url: https://www.rootnetsec.com
+title: Infosec Blog By Abhi
+email: abhiabhi2306@gmail.com
+description: I love breaking web apps <3
+#url: https://abhiabhi2306.github.io
 baseurl: ""
 keywords: ["blog", "jekyll"]
 
@@ -40,14 +40,14 @@ kramdown:
 ####################################
 #
 owner:
-  name: d4mianwayne
+  name: abhisheks
   avatar: Robin.jpg
   job: "Student"
-  bio: "Student with pure dedication to security."
-  email: dubeyayushmanrobin@protonmail.com
+  bio: "I love breaking web apps <3."
+  email: abhiabhi2306@gmail.com
   disqus-shortname:
-  twitter: d4mianwayne
-  facebook: #username
+  twitter: abhiabhi2306
+  facebook: ab2op4u
   google:
     plus: #username
     analytics: UA-144686323-1
@@ -55,7 +55,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: d4mianwayne
+  github: abhiabhi2306
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
@@ -75,4 +75,4 @@ owner:
   500px: #username
   codepen: #username
   reddit: 
-  telegram: d4mianwayne
+  telegram: abhi900600
