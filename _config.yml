@@ -1,0 +1,78 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Batcave - Infosec Blog
+email: dubeyayushmanrobin@protonmail.com
+description: Student with pure dedication to security.
+#url: https://www.rootnetsec.com
+baseurl: ""
+keywords: ["blog", "jekyll"]
+
+plugins dir: [jekyll-paginate]
+paginate_path: "/page:num/"
+paginate: 5
+gems: [jekyll-paginate]
+
+google_analytics: UA-144686323-1
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Europe/Warsaw
+markdown:          kramdown
+highlighter:       rouge
+
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: d4mianwayne
+  avatar: Robin.jpg
+  job: "Student"
+  bio: "Student with pure dedication to security."
+  email: dubeyayushmanrobin@protonmail.com
+  disqus-shortname:
+  twitter: d4mianwayne
+  facebook: #username
+  google:
+    plus: #username
+    analytics: UA-144686323-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: d4mianwayne
+  gitlab: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  skype: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
+  reddit: 
+  telegram: d4mianwayne

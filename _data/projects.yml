@@ -1,0 +1,6 @@
+- year: 2019
+  projects:
+    - name: ALfred
+      technologies: Python
+      description: A CTF framework for bsolute beginer with integration of well-known tools.
+      github: https://github.com/d4mianwayne/Alfred
