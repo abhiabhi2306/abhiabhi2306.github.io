@@ -3,16 +3,21 @@
     - name: Online RPG
       technologies: php/mysql
       description: A online MMORPG where you can catch,battle and trade pokemon with multi-player features.
-      github: https://github.com/abhiabhi2306/
 - year: 2018
   projects:
     - name: Athletics Meet Management System
       technologies: python/django
       description: A web application suite to manage registrations/participation & score for athletics meets.
-      github: https://github.com/abhiabhi2306/
-- year: 2019
+      - year: 2019
+  projects:
+    - name: MalDetect
+      technologies: python
+      description: A  web app to analyze malicious URL(s) 
+      github: https://github.com/abhiabhi2306/maldetect
+- year: 2021
   projects:
     - name: Live Web Vulnerability Monitoring Framework
       technologies: python,go
       description: A framework based on python and go to monitor web interfaces of organizations for continous vulnerability analysis.
-      github: https://github.com/abhiabhi2306/
+
+
