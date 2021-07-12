@@ -1,6 +1,6 @@
 - year: 2016
   projects:
-    - name: Pokemon Generations RPG
+    - name: Online RPG
       technologies: php/mysql
       description: A online MMORPG where you can catch,battle and trade pokemon with multi-player features.
       github: https://github.com/abhiabhi2306/
@@ -12,7 +12,7 @@
       github: https://github.com/abhiabhi2306/
 - year: 2019
   projects:
-    - name: Untitled
-      technologies: python
-      description: confidential
+    - name: Live Web Vulnerability Monitoring Framework
+      technologies: python,go
+      description: A framework based on python and go to monitor web interfaces of organizations for continous vulnerability analysis.
       github: https://github.com/abhiabhi2306/
