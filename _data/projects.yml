@@ -8,7 +8,7 @@
     - name: Athletics Meet Management System
       technologies: python/django
       description: A web application suite to manage registrations/participation & score for athletics meets.
-      - year: 2019
+ - year: 2019
   projects:
     - name: MalDetect
       technologies: python
